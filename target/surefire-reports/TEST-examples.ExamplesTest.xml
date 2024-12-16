@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="3.05" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="2.568" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Users/saumya.singh/Library/Java/JavaVirtualMachines/corretto-21.0.4/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire/surefirebooter-20241213174335862_3.jar /Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire 2024-12-13T17-43-35_789-jvmRun1 surefire-20241213174335862_1tmp surefire_0-20241213174335862_2tmp"/>
+    <property name="sun.java.command" value="/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire/surefirebooter-20241213174740616_3.jar /Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire 2024-12-13T17-47-40_550-jvmRun1 surefire-20241213174740616_1tmp surefire_0-20241213174740616_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/test-classes:/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/classes:/Users/saumya.singh/.m2/repository/io/karatelabs/karate-junit5/1.5.0/karate-junit5-1.5.0.jar:/Users/saumya.singh/.m2/repository/io/karatelabs/karate-core/1.5.0/karate-core-1.5.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/js/js-scriptengine/24.0.0/js-scriptengine-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/polyglot/polyglot/24.0.0/polyglot-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/sdk/collections/24.0.0/collections-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/sdk/nativeimage/24.0.0/nativeimage-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/sdk/word/24.0.0/word-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/js/js-language/24.0.0/js-language-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/regex/regex/24.0.0/regex-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/truffle/truffle-api/24.0.0/truffle-api-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/graalvm/shadowed/icu4j/24.0.0/icu4j-24.0.0.jar:/Users/saumya.singh/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/saumya.singh/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/saumya.singh/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/saumya.singh/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/saumya.singh/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/saumya.singh/.m2/repository/com/linecorp/armeria/armeria/1.29.2/armeria-1.29.2.jar:/Users/saumya.singh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.1/jackson-core-2.17.1.jar:/Users/saumya.singh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.1/jackson-annotations-2.17.1.jar:/Users/saumya.singh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.1/jackson-databind-2.17.1.jar:/Users/saumya.singh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.1/jackson-datatype-jdk8-2.17.1.jar:/Users/saumya.singh/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.1/jackson-datatype-jsr310-2.17.1.jar:/Users/saumya.singh/.m2/repository/io/micrometer/micrometer-core/1.13.0/micrometer-core-1.13.0.jar:/Users/saumya.singh/.m2/repository/io/micrometer/micrometer-commons/1.13.0/micrometer-commons-1.13.0.jar:/Users/saumya.singh/.m2/repository/io/micrometer/micrometer-observation/1.13.0/micrometer-observation-1.13.0.jar:/Users/saumya.singh/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.1/HdrHistogram-2.2.1.jar:/Users/saumya.singh/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport/4.1.110.Final/netty-transport-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-common/4.1.110.Final/netty-common-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-buffer/4.1.110.Final/netty-buffer-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-resolver/4.1.110.Final/netty-resolver-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec-haproxy/4.1.110.Final/netty-codec-haproxy-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec/4.1.110.Final/netty-codec-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec-http2/4.1.110.Final/netty-codec-http2-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-handler/4.1.110.Final/netty-handler-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec-http/4.1.110.Final/netty-codec-http-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-resolver-dns/4.1.110.Final/netty-resolver-dns-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec-dns/4.1.110.Final/netty-codec-dns-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar:/Users/saumya.singh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/saumya.singh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-handler-proxy/4.1.110.Final/netty-handler-proxy-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-codec-socks/4.1.110.Final/netty-codec-socks-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.110.Final/netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.110.Final/netty-transport-native-unix-common-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.110.Final/netty-transport-classes-epoll-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-epoll/4.1.110.Final/netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.110.Final/netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.110.Final/netty-transport-classes-kqueue-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.110.Final/netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.110.Final/netty-resolver-dns-classes-macos-4.1.110.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.110.Final/netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.110.Final/netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-classes/2.0.65.Final/netty-tcnative-classes-2.0.65.Final.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar:/Users/saumya.singh/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.65.Final/netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar:/Users/saumya.singh/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.16.0/brotli4j-1.16.0.jar:/Users/saumya.singh/.m2/repository/com/aayushatharva/brotli4j/service/1.16.0/service-1.16.0.jar:/Users/saumya.singh/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.16.0/native-osx-aarch64-1.16.0.jar:/Users/saumya.singh/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/saumya.singh/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/saumya.singh/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/saumya.singh/.m2/repository/ch/qos/logback/logback-classic/1.5.4/logback-classic-1.5.4.jar:/Users/saumya.singh/.m2/repository/ch/qos/logback/logback-core/1.5.4/logback-core-1.5.4.jar:/Users/saumya.singh/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar:/Users/saumya.singh/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/saumya.singh/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/Users/saumya.singh/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/saumya.singh/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/saumya.singh/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/saumya.singh/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/saumya.singh/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/saumya.singh/.m2/repository/de/siegmar/fastcsv/3.1.0/fastcsv-3.1.0.jar:/Users/saumya.singh/.m2/repository/info/picocli/picocli/4.7.5/picocli-4.7.5.jar:/Users/saumya.singh/.m2/repository/io/github/classgraph/classgraph/4.8.170/classgraph-4.8.170.jar:/Users/saumya.singh/.m2/repository/io/github/t12y/resemble/1.1.0/resemble-1.1.0.jar:/Users/saumya.singh/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/saumya.singh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/saumya.singh/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/saumya.singh/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/saumya.singh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/saumya.singh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/saumya.singh/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire/surefirebooter-20241213174335862_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/saumya.singh/Desktop/QA_Automation/KarateAPIFramework/KarateAPIFramework/target/surefire/surefirebooter-20241213174740616_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -59,12 +59,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testParallel" classname="examples.ExamplesTest" time="3.04">
-    <system-out><![CDATA[17:43:36.830 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-17:43:36.840 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1734092016839
-17:43:37.388 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-17:43:37.388 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-17:43:37.546 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="2.559">
+    <system-out><![CDATA[17:47:41.605 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:47:41.609 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1734092261608
+17:47:41.613 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+17:47:42.143 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+17:47:42.143 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+17:47:42.286 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 1 > GET https://jsonplaceholder.typicode.com/users
 1 > Host: jsonplaceholder.typicode.com
 1 > Connection: Keep-Alive
@@ -72,29 +73,29 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-17:43:37.546 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-1 > POST https://jsonplaceholder.typicode.com/users
+17:47:42.286 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.instantwebtools.net/v1/airlines
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 160
-1 > Host: jsonplaceholder.typicode.com
+1 > Content-Length: 293
+1 > Host: api.instantwebtools.net
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.4)
 1 > Accept-Encoding: gzip,deflate
-{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+{"id":432432,"name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/9b\/Qatar_Airways_Logo.svg\/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990"}
 
-17:43:38.304 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 755
+17:47:43.118 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 827
 1 < 200
-1 < Date: Fri, 13 Dec 2024 12:13:38 GMT
+1 < Date: Fri, 13 Dec 2024 12:17:43 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732604041&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TrmFbCsM2%2BjuOjNW4dbLbtsJrWJZEXajYySli%2FNvQds%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732604041&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TrmFbCsM2%2BjuOjNW4dbLbtsJrWJZEXajYySli%2FNvQds%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732923573&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MHrd5r8t%2BsDKmrEuwWB2EXX9qcFz8ZD86NUMD6qCgfw%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732923573&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MHrd5r8t%2BsDKmrEuwWB2EXX9qcFz8ZD86NUMD6qCgfw%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
 1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1732604076
+1 < X-Ratelimit-Reset: 1732923576
 1 < Vary: Origin, Accept-Encoding
 1 < Access-Control-Allow-Credentials: true
 1 < Cache-Control: max-age=43200
@@ -104,11 +105,11 @@
 1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: HIT
-1 < Age: 18727
+1 < Age: 16544
 1 < Server: cloudflare
-1 < CF-RAY: 8f15de8a1832e163-MRS
+1 < CF-RAY: 8f15e4844c5beea9-MXP
 1 < alt-svc: h3=":443"; ma=86400
-1 < server-timing: cfL4;desc="?proto=TCP&rtt=175458&min_rtt=174274&rtt_var=66199&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3117&recv_bytes=777&delivery_rate=24581&cwnd=250&unsent_bytes=0&cid=3ad2a90aa75f8438&ts=253&x=0"
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=184722&min_rtt=183859&rtt_var=70674&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3117&recv_bytes=777&delivery_rate=22456&cwnd=252&unsent_bytes=0&cid=3e0c18c5beba0096&ts=245&x=0"
 [
   {
     "id": 1,
@@ -342,117 +343,34 @@
   }
 ]
 
-17:43:38.317 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-2 > GET https://jsonplaceholder.typicode.com/users/1
-2 > Host: jsonplaceholder.typicode.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.4)
-2 > Accept-Encoding: gzip,deflate
-
-
-17:43:38.379 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 833
-1 < 201
-1 < Date: Fri, 13 Dec 2024 12:13:38 GMT
+17:47:43.181 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 894
+1 < 200
+1 < Server: nginx/1.24.0 (Ubuntu)
+1 < Date: Fri, 13 Dec 2024 12:17:43 GMT
 1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 216
+1 < Content-Length: 325
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734092018&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=DDjPQ6CQ4AzPpR8wr%2FkBKJKRouFf%2B8iNGFKZYGXi44o%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734092018&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=DDjPQ6CQ4AzPpR8wr%2FkBKJKRouFf%2B8iNGFKZYGXi44o%3D
-1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
-1 < X-Ratelimit-Limit: 1000
-1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1734092072
-1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
-1 < Access-Control-Allow-Credentials: true
-1 < Cache-Control: no-cache
-1 < Pragma: no-cache
-1 < Expires: -1
-1 < Access-Control-Expose-Headers: Location
-1 < Location: https://jsonplaceholder.typicode.com/users/11
-1 < X-Content-Type-Options: nosniff
-1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: DYNAMIC
-1 < Server: cloudflare
-1 < CF-RAY: 8f15de8a1a2ce19a-MRS
-1 < alt-svc: h3=":443"; ma=86400
-1 < server-timing: cfL4;desc="?proto=TCP&rtt=180026&min_rtt=179383&rtt_var=51567&sent=6&recv=8&lost=0&retrans=0&sent_bytes=3115&recv_bytes=1006&delivery_rate=23521&cwnd=224&unsent_bytes=0&cid=c3358155ba863294&ts=329&x=0"
-{
-  "name": "Test User",
-  "username": "testuser",
-  "email": "test@user.com",
-  "address": {
-    "street": "Has No Name",
-    "suite": "Apt. 123",
-    "city": "Electri",
-    "zipcode": "54321-6789"
-  },
-  "id": 11
-}
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"145-MmL5ML7s5Wi0xTHjTbRJCbwluUc"
+{"_id":"026a78e8-0547-45bd-9f2d-706874925c49","name":"Sri Lankan Airways","country":"Sri Lanka","logo":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png","slogan":"From Sri Lanka","head_quaters":"Katunayake, Sri Lanka","website":"www.srilankaairways.com","established":"1990","__v":0}
 
-17:43:38.382 [pool-2-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
-17:43:38.890 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 572
-2 < 200
-2 < Date: Fri, 13 Dec 2024 12:13:38 GMT
-2 < Content-Type: application/json; charset=utf-8
-2 < Transfer-Encoding: chunked
-2 < Connection: keep-alive
-2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733370595&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LP07OJc1BMZqv80bOyt2%2BcQg6DcY3Xv9BYTtdI3Zzt8%3D"}]}
-2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733370595&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LP07OJc1BMZqv80bOyt2%2BcQg6DcY3Xv9BYTtdI3Zzt8%3D
-2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-2 < X-Powered-By: Express
-2 < X-Ratelimit-Limit: 1000
-2 < X-Ratelimit-Remaining: 999
-2 < X-Ratelimit-Reset: 1733370638
-2 < Vary: Origin, Accept-Encoding
-2 < Access-Control-Allow-Credentials: true
-2 < Cache-Control: max-age=43200
-2 < Pragma: no-cache
-2 < Expires: -1
-2 < X-Content-Type-Options: nosniff
-2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
-2 < Via: 1.1 vegur
-2 < CF-Cache-Status: HIT
-2 < Age: 22282
-2 < Server: cloudflare
-2 < CF-RAY: 8f15de8ddcdce18b-MRS
-2 < alt-svc: h3=":443"; ma=86400
-2 < server-timing: cfL4;desc="?proto=TCP&rtt=181551&min_rtt=181303&rtt_var=68166&sent=3&recv=7&lost=0&retrans=0&sent_bytes=219&recv_bytes=1034&delivery_rate=7876&cwnd=228&unsent_bytes=0&cid=1ebb4d898127b8b1&ts=197&x=0"
-{
-  "id": 1,
-  "name": "Leanne Graham",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
-    }
-  },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-  }
-}
+---------------------------------------------------------
+feature: classpath:examples/aireline/CreateAireline.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.0149
+---------------------------------------------------------
 
+17:47:43.462 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/aireline/CreateAireline.feature
 ---------------------------------------------------------
 feature: classpath:examples/users/users.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 2.4464
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.9558
 ---------------------------------------------------------
 
-17:43:39.203 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+17:47:43.498 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/users/users.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   2.79 | threads:    5 | thread time: 2.45 
-features:     1 | skipped:    0 | efficiency: 0.18
+elapsed:   2.30 | threads:    5 | thread time: 1.97 
+features:     2 | skipped:    0 | efficiency: 0.17
 scenarios:    2 | passed:     2 | failed: 0
 ======================================================
 
